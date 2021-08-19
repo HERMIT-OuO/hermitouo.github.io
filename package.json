@@ -1,0 +1,20 @@
+{
+  "name": "hermit_blog",
+  "version": "1.0.0",
+  "description": "Blog For Hermit",
+  "main": "index.js",
+  "author": "HERMIT",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-theme-gungnir": "^0.2.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@renovamen/vuepress-plugin-katex": "^0.2.0"
+  }
+}
