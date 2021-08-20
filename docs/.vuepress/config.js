@@ -11,38 +11,10 @@ module.exports = {
           }
         ]
       ],
-    locales: {
-        // 键名是该语言所属的子路径
-        // 作为特例，默认语言可以使用 '/' 作为其路径。
-        // "/": {
-        //     lang: "en-US", // 将会被设置为 <html> 的 lang 属性
-        //     title: "HERMIT",
-        //     description: "Every era is chaotic",
-        // },
-        // "/zh/": {
-        //     lang: "zh-CN",
-        //     title: "HERMIT",
-        //     description: "每个时代都是乱世",
-        // },
-    },
     theme: "gungnir",
     themeConfig: {
         editLinks: true,
         lastUpdated: true,
-        // locales: {
-        //     "/": {
-        //         label: "English",
-        //         selectText: "Languages",
-        //         nav: require("./configs/nav/en"),
-        //         // sidebar: require("./configs/sidebar/en"),
-        //     },
-        //     // "/zh/": {
-        //     //     label: "简体中文",
-        //     //     selectText: "选择语言",
-        //     //     nav: require("./configs/nav/zh"),
-        //     //     sidebar: require("./configs/sidebar/zh"),
-        //     // },
-        // },
         nav: [
             {
                 text: "Home",
@@ -94,15 +66,12 @@ module.exports = {
             local: [
                 {
                     path: "/img/index_bg/bg1.jpg",
-                    // "mask": "rgba(40, 57, 101, .4)"
                 },
                 {
                     path: "/img/index_bg/bg2.jpg",
-                    // "mask": "rgba(40, 57, 101, .4)"
                 },
                 {
                     path: "/img/index_bg/bg3.png",
-                    // "mask": "rgba(40, 57, 101, .4)"
                 },
                 {
                     path: "/img/index_bg/bg4.jpg",
