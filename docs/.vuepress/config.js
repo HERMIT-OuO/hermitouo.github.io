@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
     title: "HERMIT",
     description: "Every era is chaotic.",
@@ -54,11 +56,16 @@ module.exports = {
                 customize: [
                     // 添加其他的社交平台
                     {
-                        icon: "co-telegram-plane", // 社交平台的图标
+                        icon: "la-telegram-plane", // 社交平台的图标
                         link: "https://t.me/HERMIT_CHAT_BOT", // 主页链接
                     },
                 ],
             },
+        },
+        rss: {
+            site_url: "https://zxh.io",
+            copyright: "Renovamen 2018-2021",
+            count: 20,
         },
         homeHeaderImages: {
             // 可选：首页本地封面图路径和蒙版
@@ -127,5 +134,9 @@ module.exports = {
             };
         },
     },
-    plugins: ["@renovamen/vuepress-plugin-katex", "@vuepress/medium-zoom"],
+    plugins: [
+        "@renovamen/vuepress-plugin-katex",
+        "@vuepress/medium-zoom",
+        "@renovamen/vuepress-plugin-rss"
+    ],
 };

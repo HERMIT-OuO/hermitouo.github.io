@@ -7,8 +7,8 @@ import {
     HiTranslate,
     OiRepo,
     OiGitCompare,
-    FaTelegramPlane,
     CoTelegramPlane,
+    FaTelegramPlane,
     FaFortAwesome,
     FaPaw,
     FaTag,
@@ -23,7 +23,9 @@ import {
     RiWeiboFill,
     HiMail,
     AiCv,
-    RiSpaceShipFill
+    RiSpaceShipFill,
+    FaTelegram,
+    LaTelegramPlane
 } from "oh-vue-icons/icons";
 
 OhVueIcon.add(
@@ -32,7 +34,6 @@ OhVueIcon.add(
     HiTranslate,
     OiRepo,
     OiGitCompare,
-    FaTelegramPlane,
     CoTelegramPlane,
     RiGithubFill,
     FaFortAwesome,
@@ -49,5 +50,8 @@ OhVueIcon.add(
     RiWeiboFill,
     HiMail,
     AiCv,
-    RiSpaceShipFill
+    RiSpaceShipFill,
+    FaTelegramPlane,
+    FaTelegram,
+    LaTelegramPlane
 );
