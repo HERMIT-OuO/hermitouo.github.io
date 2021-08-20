@@ -53,11 +53,10 @@ module.exports = {
                 email: "ruoliangty@gmail.com", // 邮箱
                 customize: [
                     // 添加其他的社交平台
-                    //   {
-                    //     icon: "ri-reddit-line",  // 社交平台的图标
-                    //     link: "https://www.reddit.com/user/oh-renovamen"  // 主页链接
-                    //   },
-                    // ...
+                      {
+                        icon: "co-telegram-plane",  // 社交平台的图标
+                        link: "https://t.me/HERMIT_CHAT_BOT"  // 主页链接
+                      },
                 ],
             },
         },

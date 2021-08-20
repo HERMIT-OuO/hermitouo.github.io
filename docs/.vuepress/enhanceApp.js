@@ -11,6 +11,8 @@ import {
     HiTranslate,
     OiRepo,
     OiGitCompare,
+    FaTelegramPlane,
+    CoTelegramPlane,
 } from "oh-vue-icons/icons";
 
 OhVueIcon.add(
@@ -22,5 +24,7 @@ OhVueIcon.add(
     RiSearch2Line,
     HiTranslate,
     OiRepo,
-    OiGitCompare
+    OiGitCompare,
+    FaTelegramPlane,
+    CoTelegramPlane
 );
