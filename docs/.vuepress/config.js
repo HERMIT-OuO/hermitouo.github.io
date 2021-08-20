@@ -4,13 +4,13 @@ module.exports = {
     head: [
         ["link", { rel: "icon", href: "/img/logo.svg" }],
         [
-          "meta",
-          {
-            name: "viewport",
-            content: "width=device-width,initial-scale=1,user-scalable=no"
-          }
-        ]
-      ],
+            "meta",
+            {
+                name: "viewport",
+                content: "width=device-width,initial-scale=1,user-scalable=no",
+            },
+        ],
+    ],
     theme: "gungnir",
     themeConfig: {
         editLinks: true,
@@ -53,10 +53,10 @@ module.exports = {
                 email: "ruoliangty@gmail.com", // 邮箱
                 customize: [
                     // 添加其他的社交平台
-                      {
-                        icon: "co-telegram-plane",  // 社交平台的图标
-                        link: "https://t.me/HERMIT_CHAT_BOT"  // 主页链接
-                      },
+                    {
+                        icon: "co-telegram-plane", // 社交平台的图标
+                        link: "https://t.me/HERMIT_CHAT_BOT", // 主页链接
+                    },
                 ],
             },
         },
@@ -117,6 +117,15 @@ module.exports = {
         // chartjs: true,  // 图表
         // mermaid: true,  // 流程图、状态图、时序图、甘特图
         // markmap: true,  // 思维导图
+        configureWebpack: () => {
+            return {
+                resolve: {
+                    alias: {
+                        public: path.resolve(__dirname, "./public"),
+                    },
+                },
+            };
+        },
     },
     plugins: ["@renovamen/vuepress-plugin-katex", "@vuepress/medium-zoom"],
 };
