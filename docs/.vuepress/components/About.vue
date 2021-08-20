@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <!-- <Content class="theme-content" /> -->
+        <Content class="theme-content" />
     </Common>
 </template>
 
