@@ -56,7 +56,7 @@ module.exports = {
                 customize: [
                     // 添加其他的社交平台
                     {
-                        icon: "la-telegram-plane", // 社交平台的图标
+                        icon: "co-telegram-plane", // 社交平台的图标
                         link: "https://t.me/HERMIT_CHAT_BOT", // 主页链接
                     },
                 ],
