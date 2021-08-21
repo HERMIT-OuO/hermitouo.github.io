@@ -79,10 +79,10 @@ module.exports = {
                 {
                     path: "/img/index_bg/bg3.png",
                 },
-                {
-                    path: "/img/index_bg/bg4.jpg",
-                    mask: "rgba(52, 45, 50, .4)",
-                },
+                // {
+                //     path: "/img/index_bg/bg4.jpg",
+                //     mask: "rgba(52, 45, 50, .4)",
+                // },
             ],
         },
         pages: {
