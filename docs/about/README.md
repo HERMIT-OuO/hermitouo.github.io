@@ -1,7 +1,7 @@
 ---
 layout: About
 title: About
-avatar: /img/avatar.png
+avatar: /img/avatar_bg.png
 name: Tianyu Gao
 subname: 高天宇
 github: https://github.com/HERMIT-OuO

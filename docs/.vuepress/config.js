@@ -4,7 +4,7 @@ module.exports = {
     title: "HERMIT",
     description: "Every era is chaotic.",
     head: [
-        ["link", { rel: "icon", href: "/img/logo.svg" }],
+        ["link", { rel: "icon", href: "/img/avatar_bg.svg" }],
         [
             "meta",
             {
@@ -44,7 +44,7 @@ module.exports = {
             name: "HERMIT",
 
             // 必须：头像，将在首页和移动端侧边栏显示
-            avatar: "/img/avatar.png",
+            avatar: "/img/avatar_bg.png",
 
             // 必须：个人简介，将在首页显示
             description: "每个时代都是乱世",
