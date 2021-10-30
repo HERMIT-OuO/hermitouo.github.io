@@ -47,7 +47,7 @@ module.exports = {
             avatar: "/img/avatar_bg.png",
 
             // 必须：个人简介，将在首页显示
-            description: "每个时代都是乱世",
+            description: "Nessun dorma",
 
             // 可选：社交平台账号，将在首页和移动端侧边栏显示
             sns: {
