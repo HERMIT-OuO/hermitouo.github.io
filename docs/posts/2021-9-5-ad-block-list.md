@@ -7,7 +7,7 @@ header_style: image  # 是否在博客中显示封面图：`image`（显示） /
 header_img: /img/posts/2021-9-5-ad-block-list.jpg  # 博客封面图（必须，即使上一项选了 `text`，图片也需要在首页显示）
 catalog: true  # 是否启用右侧目录：false / true（可选，默认为 false）
 tags:  # 博客标签
-  - resource
+  - Resource
 ---
 
 ## ABP 兼容规则
