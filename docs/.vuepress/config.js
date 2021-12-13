@@ -67,6 +67,13 @@ module.exports = {
             copyright: "Renovamen 2018-2021",
             count: 20,
         },
+        comment: {
+            platform: "github",
+            owner: "HERMIT-OuO",  // 用于放评论的仓库的拥有者 ID
+            repo: "hermitouo.github.io",  // 用于放评论的仓库名
+            clientId: "41f410bab82ba405b0a3",  // OAuth App Client ID
+            clientSecret: "5aa21a3ac40a7fe83c665940d46f4e4f5913fd00"  // OAuth App Client Secret
+        },
         homeHeaderImages: {
             // 可选：首页本地封面图路径和蒙版
             local: [
