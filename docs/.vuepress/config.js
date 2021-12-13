@@ -63,8 +63,8 @@ module.exports = {
             },
         },
         rss: {
-            site_url: "https://zxh.io",
-            copyright: "Renovamen 2018-2021",
+            site_url: "https://www.hermit.world",
+            copyright: "HERMIT 2021",
             count: 20,
         },
         comment: {
