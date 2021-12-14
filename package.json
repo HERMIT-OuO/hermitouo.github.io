@@ -6,6 +6,7 @@
   "author": "HERMIT",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
     "markdown-it": "^12.2.0",
     "node-sass": "^6.0.1",
@@ -19,6 +20,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "@renovamen/vuepress-plugin-baidu-tongji": "^0.2.0",
     "@renovamen/vuepress-plugin-katex": "^0.2.0",
     "@renovamen/vuepress-plugin-rss": "^0.2.0"
   }

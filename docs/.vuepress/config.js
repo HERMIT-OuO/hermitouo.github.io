@@ -127,6 +127,9 @@ module.exports = {
         footer: `&copy; <a href="https://github.com/HERMIT-OuO" target="_blank">HERMIT</a> 2021 <br> 
                 Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a> &
                 <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>`,
+        analytics: {
+            ba: "f3a4c70f9bce566c1af16d09e5ca12c7"
+        },
         // katex: true,  //公示渲染
         // chartjs: true,  // 图表
         // mermaid: true,  // 流程图、状态图、时序图、甘特图
