@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-    title: "HERMIT",
+    title: "HERMIT's Blog",
     description: "Every era is chaotic.",
     head: [
         ["link", { rel: "icon", href: "/img/avatar_bg.svg" }],
@@ -128,7 +128,8 @@ module.exports = {
                 Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a> &
                 <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>`,
         analytics: {
-            ba: "f3a4c70f9bce566c1af16d09e5ca12c7"
+            ba: "f3a4c70f9bce566c1af16d09e5ca12c7",
+            ga: "G-C4MMKXQ8VZ"
         },
         // katex: true,  //公示渲染
         // chartjs: true,  // 图表
