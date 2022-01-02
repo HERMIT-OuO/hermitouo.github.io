@@ -22,6 +22,7 @@
   "dependencies": {
     "@renovamen/vuepress-plugin-baidu-tongji": "^0.2.0",
     "@renovamen/vuepress-plugin-katex": "^0.2.0",
-    "@renovamen/vuepress-plugin-rss": "^0.2.0"
+    "@renovamen/vuepress-plugin-rss": "^0.2.0",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

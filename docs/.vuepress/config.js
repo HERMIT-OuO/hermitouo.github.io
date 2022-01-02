@@ -148,6 +148,10 @@ module.exports = {
     plugins: [
         "@renovamen/vuepress-plugin-katex",
         "@vuepress/medium-zoom",
-        "@renovamen/vuepress-plugin-rss"
+        "@renovamen/vuepress-plugin-rss",
+        ['sitemap', {
+            hostname: "https://hermit.world",
+            exclude: ["/404.html"]
+        }]
     ],
 };

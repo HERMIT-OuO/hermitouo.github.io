@@ -1,0 +1,3 @@
+Sitemap: https://hermit.world/sitemap.xml
+
+User-agent: *
