@@ -97,6 +97,8 @@ sudo chmod 755 p4*.sh
 
 ### 编译并安装
 
+::: details 以下内容已失效
+
 在运行安装脚本之前，我们需要手动修改 `behavioral-model/install_deps.sh` 文件。
 
 `BMV2` 需要 `Thrift ` 依赖作为支持， 而使用 `Thrift` 需要首先安装 `libssl` 。在 `Ubuntu 18.04` 中，`libssl` 的 apt 包名为 `libssl1.0-dev`，在 `Ubuntu 20.04` （以及 18.04 之前的版本）中 apt 包名为 `libssl-dev`。但在 `install_deps.sh` 中，我们可以看到，开发组在 20.04 仍中使用 `libssl1.0-dev` ，对此我们进行简单的修改。
@@ -122,7 +124,9 @@ else
 fi
 ```
 
-最后执行安装脚本，并耐心地进行等待。如果配置的内存过低，系统可能会在编译阶段失去响应。
+:::
+
+执行安装脚本，并耐心地进行等待。如果配置的内存过低，系统可能会在编译阶段失去响应。
 
 ```bash
 ./p4-install.sh
