@@ -41,7 +41,7 @@ module.exports = {
         ],
         personalInfo: {
             // 必须：名称，将在首页、移动端侧边栏和文章作者信息处显示
-            name: "HERMIT",
+            name: "HERMITOUO",
 
             // 必须：头像，将在首页和移动端侧边栏显示
             avatar: "/img/avatar_bg.png",
@@ -64,7 +64,7 @@ module.exports = {
         },
         rss: {
             site_url: "https://www.hermit.world",
-            copyright: "HERMIT 2021",
+            copyright: "HERMIT 2022",
             count: 20,
         },
         comment: {
