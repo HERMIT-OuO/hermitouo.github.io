@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     title: "HERMIT's Blog",
-    description: "Every era is chaotic.",
+    description: "LOVE IS ALL YOU NEED",
     head: [
         ["link", { rel: "icon", href: "/img/avatar_bg.svg" }],
         [
@@ -47,7 +47,7 @@ module.exports = {
             avatar: "/img/avatar_bg.png",
 
             // 必须：个人简介，将在首页显示
-            description: "Nessun dorma",
+            description: "LOVE IS ALL YOU NEED",
 
             // 可选：社交平台账号，将在首页和移动端侧边栏显示
             sns: {
