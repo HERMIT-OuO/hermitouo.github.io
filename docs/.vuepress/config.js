@@ -124,7 +124,7 @@ module.exports = {
         mdPlus: {
             all: true, // 全部启用
         },
-        footer: `&copy; <a href="https://github.com/HERMIT-OuO" target="_blank">HERMIT</a> 2021 <br> 
+        footer: `&copy; <a href="https://github.com/HERMIT-OuO" target="_blank">HERMIT</a> 2022 <br> 
                 Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a> &
                 <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>`,
         analytics: {
