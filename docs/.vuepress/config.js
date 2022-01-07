@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-    title: "HERMIT's Blog",
+    title: "HERMITOUO's Blog",
     description: "LOVE IS ALL YOU NEED",
     head: [
         ["link", { rel: "icon", href: "/img/avatar_bg.svg" }],
