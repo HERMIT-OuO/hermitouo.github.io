@@ -31,7 +31,7 @@ tags:  # 博客标签
 请确保 `python` 命令可以访问 `python3`，使用如下命令绑定并检查：
 
 ```bash
-ln -s /usr/lib/python3.x /usr/lib/python    # 将 Python3.x 链接至 Python
+ln -s /usr/bin/python3.x /usr/bin/python    # 将 Python3.x 链接至 Python
 
 # 检查 python 和 pip 是否可以正常使用
 python -V
