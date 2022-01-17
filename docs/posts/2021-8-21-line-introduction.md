@@ -2,7 +2,7 @@
 title: 常见互联线路汇总  # 博客标题（必须）
 subtitle: Summary of common interconnection lines  # 博客副标题（可选）
 date: 2021-08-21  # 博客日期，会显示在文章头部（可选）
-author: HERMIT  # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
+author: HERMITOUO  # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
 header_style: image  # 是否在博客中显示封面图：`image`（显示） / `text`（不显示）（可选，默认为 `text`）
 header_img: /img/posts/2021-8-21-line-introduction.jpg  # 博客封面图（必须，即使上一项选了 `text`，图片也需要在首页显示）
 header_mask: rgba(32, 36, 29, .4)  # 封面图遮罩（可选）
