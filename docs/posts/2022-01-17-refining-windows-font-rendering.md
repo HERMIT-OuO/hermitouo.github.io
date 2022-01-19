@@ -50,7 +50,7 @@ macOS 使用了 Windows 不同的渲染策略，相比于 Windows 的点阵像�
 
 更纱黑体是一个在 100% 缩放比例下同样有着优秀的显示效果的字体，由 [Inter](https://link.zhihu.com/?target=https%3A//rsms.me/inter/) 和思源黑体的汉字部分合并而来，在 [Github](https://github.com/be5invis/Sarasa-Gothic/releases) 中可以下载到最新版本的 `ttc` 文件。安装、替换系统字体为「更纱黑体 UI SC」（英文描述为 「Sarasa UI SC」）即可。其中 UI 表示「窄引号」，SC 表示「简体汉字字形」。
 
-![2K 分辨率下，微软雅黑对比更纱黑体（文件资源管理器界面），图源自 SpencerWoo ](https://imunetgroup.oss-cn-huhehaote.aliyuncs.com/gaotianyu/Untitled.png "2K 分辨率下，微软雅黑对比更纱黑体（文件资源管理器界面），图源自 SpencerWoo ")
+![2K 分辨率下，微软雅黑对比更纱黑体（文件资源管理器界面），图源自 SpencerWoo ](https://imunetgroup.oss-cn-huhehaote.aliyuncs.com/gaotianyu/font2.png "2K 分辨率下，微软雅黑对比更纱黑体（文件资源管理器界面），图源自 SpencerWoo ")
 
 ### 使用 MacType
 
