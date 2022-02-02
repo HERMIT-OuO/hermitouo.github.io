@@ -50,7 +50,7 @@ tags:  # 博客标签
     setup() {
       let title = "Hello, Vue 3!";
 			
-			setTimeout(() => {
+	  setTimeout(() => {
         title = "THIS IS A NEW TITLE";
       }, 5000);
 		
@@ -74,11 +74,11 @@ tags:  # 博客标签
 <script>
   export default {
     setup() {
-			const data = reactive({
-				title: "Hello, Vue 3!";
-			})
+	  const data = reactive({
+		title: "Hello, Vue 3!"
+	  })
 			
-			setTimeout(() => {
+	  setTimeout(() => {
         data.title = "THIS IS A NEW TITLE";
       }, 5000);
 		
@@ -101,8 +101,8 @@ tags:  # 博客标签
   export default {
     setup() {
       const title = ref("Hello, Vue 3!");
-			
-			setTimeout(() => {
+	  
+      setTimeout(() => {
         title.value = "THIS IS A NEW TITLE";
       }, 5000);
 		
@@ -119,18 +119,18 @@ tags:  # 博客标签
 ```javascript
 <template>
   <h1>{{ title }}</h1>     
-	<h2>{{ subTitle }}</h2>
+  <h2>{{ subTitle }}</h2>
 </template>
 
 <script>
   export default {
     setup() {
-			const data = reactive({
-				title: "This is Title.";
-				subTitle: "This is Subtitle."
-			})
+	  const data = reactive({
+		title: "This is Title.",
+		subTitle: "This is Subtitle."
+	  })
 
-			let { title, subTitle } = data;			
+	  let { title, subTitle } = data;			
       return { title, subTitle };
     }
   };
@@ -142,19 +142,39 @@ tags:  # 博客标签
 ```javascript
 <template>
   <h1>{{ title }}</h1>
-	<h2>{{ subTitle }}</h2>
+  <h2>{{ subTitle }}</h2>
 </template>
 
 <script>
   export default {
     setup() {
-			const data = reactive({
-				title: "This is Title.";
-				subTitle: "This is Subtitle."
-			})
+	  const data = reactive({
+		title: "This is Title.",
+		subTitle: "This is Subtitle."
+	  })
 
-			let { title, subTitle } = toRefs(data);			
+	  let { title, subTitle } = toRefs(data);			
       return { title, subTitle };
+    }
+  };
+</script>
+```
+
+当一个对象中的 property 太多时，我们可以使用 ES6 中的 `...` 运算符进行结构：
+
+```jsx
+<script>
+  export default {
+    setup() {
+	  const data = reactive({
+		title: "This is Title.",
+		subTitle: "This is Subtitle.",
+		time: "2000-01-01",
+		name: "vue"
+	  })
+
+	  const refData = toRefs(data);			
+      return { ...refData  };
     }
   };
 </script>
