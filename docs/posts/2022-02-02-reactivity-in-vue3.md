@@ -162,7 +162,7 @@ tags:  # 博客标签
 
 当一个对象中的 property 太多时，我们可以使用 ES6 中的 `...` 运算符进行结构：
 
-```jsx
+```js
 <script>
   export default {
     setup() {
