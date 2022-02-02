@@ -1,6 +1,6 @@
 ---
-title: [Vue 3 新特性]Vue 3 中的响应式  # 博客标题（必须）
-subtitle: [Vue 3 New Features] Responsive in Vue 3  # 博客副标题（可选）
+title: Vue 3 中的响应式  # 博客标题（必须）
+subtitle: Vue 3 New Features Responsive in Vue 3  # 博客副标题（可选）
 date: 2022-02-02  # 博客日期，会显示在文章头部（可选）
 author: HERMITOUO  # 博客作者（可选，不填的话会使用 `themeConfig.personalInfo.name`）
 header_style: text # 是否在博客中显示封面图：`image`（显示） / `text`（不显示）（可选，默认为 `text`）
