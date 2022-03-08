@@ -29,6 +29,11 @@ module.exports = {
                 icon: "fa-regular-user",
             },
             {
+                text: "Projects",
+                link: "https://project.hermit.world",
+                icon: "hi-solid-code",
+            },
+            {
                 text: "Tags",
                 link: "/tags/",
                 icon: "fa-tag",

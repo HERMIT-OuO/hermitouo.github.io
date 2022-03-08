@@ -25,8 +25,11 @@ import {
     AiCv,
     RiSpaceShipFill,
     FaTelegram,
-    LaTelegramPlane
+    LaTelegramPlane,
+    HiSolidCode
 } from "oh-vue-icons/icons";
+
+
 
 OhVueIcon.add(
     RiBook2Fill,
@@ -53,5 +56,6 @@ OhVueIcon.add(
     RiSpaceShipFill,
     FaTelegramPlane,
     FaTelegram,
-    LaTelegramPlane
+    LaTelegramPlane,
+    HiSolidCode
 );
